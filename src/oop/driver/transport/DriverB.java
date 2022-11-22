@@ -6,6 +6,6 @@ public class DriverB extends Driver<Car> {
 
 
     public DriverB(String fullName, String category, int drivinExperience, Car car) {
-        super(fullName, "B", drivinExperience, car);
+        super(fullName, "B",  drivinExperience, car);
     }
 }

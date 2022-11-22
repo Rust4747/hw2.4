@@ -23,7 +23,7 @@ public  class Bus extends Transport implements Compete {
     }
 
     @Override
-    public void stopMovement() {
+    public void  stopMovement() {
         System.out.printf("oop.driver.transport.Bus %s %s performed pit-stop",
                 this.getBrand(),
                 this.getModel());

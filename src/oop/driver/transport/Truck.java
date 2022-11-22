@@ -11,7 +11,7 @@ public class Truck extends oop.driver.transport.Transport implements Compete {
     }
 
     @Override
-    public void pitStop() {
+    public void  pitStop() {
         System.out.printf("oop.driver.transport.Truck %s %s started moving",
                 this.getBrand(),
                 this.getModel());
