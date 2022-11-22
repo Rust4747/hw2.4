@@ -36,7 +36,7 @@ public class Car extends Transport implements Compete {
 
     @Override
     public int getBestLapTime() {
-        return ThreadLocalRandom.current().nextInt(1,100);
+        return  ThreadLocalRandom.current().nextInt(1,100);
     }
 
     @Override
